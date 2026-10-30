@@ -1,13 +1,13 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441" alt="krokiet_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="krokiet_logo" width="600" /></div>
 	     
 **Krokiet** ((IPA: [ˈkrɔcɛt]), "croquette" 在波兰语中) 新一代 GUI 前端，简单、跨平台、快速且免费的应用，用于从计算机中删除不必要的文件。
 
 
-<div align="center"><img src="https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png" alt="czkawka_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="czkawka_logo" width="600" /></div>
 
 **Czkawka** (_tch•kav•ka_ (IPA: [ˈʧ̑kafka]), "hiccup" 在波兰语中) 旧版 GTK4 GUI 前端，已被 Krokiet 取代。**版本 12.0 是最后一个发布版本** - 不再提供新的二进制文件。鼓励新用户和现有用户切换到 Krokiet。
 
-<div align="center"><img src="https://github.com/user-attachments/assets/ed6dfeea-a984-49e8-a621-8d6ae521c760" alt="cedinia_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="cedinia_logo" width="600" /></div>
 
 **Cedinia** - 基于 Slint 的面向 Android 触摸的 Czkawka Core GUI 前端。
 
@@ -41,9 +41,9 @@
     - **视频优化器** - 裁剪静态部分并将视频转换为更高效的格式
     - **错误名称** - 查找可能不需要的文件名（例如，包含特殊字符）
 
-![Krokiet](https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6)
+![Krokiet](icon.jpeg)
 
-![Czkawka](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
+![Czkawka](icon.jpeg)
 
 各版本的更改日志可在 [CHANGELOG.md](Changelog.md) 中找到。
 

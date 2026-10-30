@@ -1,8 +1,8 @@
-![czkawka_logo](https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png)
+![czkawka_logo](../icon.jpeg)
 
 Czkawka GUI is a graphical user interface for Czkawka Core, built with GTK 4.
 
-![Screenshot from 2023-11-26 12-43-32](https://github.com/zny05/Duplicate-Purge/assets/41945903/722ed490-0be1-4dac-bcfc-182a4d0787dc)
+![Screenshot from 2023-11-26 12-43-32](../icon.jpeg)
 
 ## Deprecation Notice - 12.0 is the Last Version
 

@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/ed6dfeea-a984-49e8-a621-8d6ae521c760" alt="cedinia_logo" width="600" /></div>
+<div align="center"><img src="../icon.jpeg" alt="cedinia_logo" width="600" /></div>
 
 Cedinia is a new Android touch friendly GUI frontend for Czkawka Core, built with Slint.
 
@@ -6,7 +6,7 @@ Supports the same scanning tools as Krokiet (duplicates, similar images and vide
 
 The name refers to the Battle of Cedynia in 972, a victory that was significant for the early Polish state.
 
-<div align="center"><img src="https://github.com/user-attachments/assets/d1e486a2-1d11-4df8-9fff-0e0af2d003da" alt="cedinia_logo" width="1000" /></div>
+<div align="center"><img src="../icon.jpeg" alt="cedinia_logo" width="1000" /></div>
 
 ## Installation
 

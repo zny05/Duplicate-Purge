@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/ed6dfeea-a984-49e8-a621-8d6ae521c760" alt="cedinia_logo" width="600" /></div>
+<div align="center"><img src="../icon.jpeg" alt="cedinia_logo" width="600" /></div>
 
 Cedinia 是一个新的 Android 触控友好型 GUI 前端，基于 Slint 构建，用于 Czkawka Core。
 
@@ -6,7 +6,7 @@ Cedinia 是一个新的 Android 触控友好型 GUI 前端，基于 Slint 构建
 
 该名称指 972 年的 Cedynia 战役，这是一场对早期波兰国家具有重要意义的胜利。
 
-<div align="center"><img src="https://github.com/user-attachments/assets/d1e486a2-1d11-4df8-9fff-0e0af2d003da" alt="cedinia_logo" width="1000" /></div>
+<div align="center"><img src="../icon.jpeg" alt="cedinia_logo" width="1000" /></div>
 
 ## Installation
 

@@ -1,8 +1,8 @@
-![czkawka_logo](https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png)
+![czkawka_logo](../icon.jpeg)
 
 Czkawka GUI 是 Czkawka Core 的图形用户界面，基于 GTK 4 构建。
 
-![Screenshot from 2023-11-26 12-43-32](https://github.com/qarmin/czkawka/assets/41945903/722ed490-0be1-4dac-bcfc-182a4d0787dc)
+![Screenshot from 2023-11-26 12-43-32](../icon.jpeg)
 
 ## 废弃通知 - 12.0 是最后一个版本
 

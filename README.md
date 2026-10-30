@@ -1,13 +1,13 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441" alt="cleaner_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="cleaner_logo" width="600" /></div>
 	     
 **Cleaner** new generation GUI frontend, simple, multiplatform, fast and free app to remove unnecessary files from your computer.
 
 
-<div align="center"><img src="https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png" alt="purge_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="purge_logo" width="600" /></div>
 
 **Purge** older gtk4 GUI frontend, superseded by Cleaner. **Version 12.0 is the last released version** - no new binaries will be provided. New users and existing users are encouraged to switch to Cleaner.
 
-<div align="center"><img src="https://github.com/user-attachments/assets/ed6dfeea-a984-49e8-a621-8d6ae521c760" alt="cedinia_logo" width="600" /></div>
+<div align="center"><img src="icon.jpeg" alt="cedinia_logo" width="600" /></div>
 
 **Cedinia** - Android touch friendly GUI frontend for Purge Core, built with Slint.
 
@@ -41,9 +41,9 @@
     - **Video Optimizer** - Crops from static parts and converts videos to more efficient formats
     - **Bad Names** - Finds files with names that may be not wanted (e.g., containing special characters)
 
-![Cleaner](https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6)
+![Cleaner](icon.jpeg)
 
-![Purge](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
+![Purge](icon.jpeg)
 
 Changelog about each version can be found in [CHANGELOG.md](Changelog.md).
 

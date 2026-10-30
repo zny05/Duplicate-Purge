@@ -1,9 +1,9 @@
 
-![krokiet_logo](https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441)
+![krokiet_logo](../icon.jpeg)
 
 Krokiet 是一个用 Slint 编写的新 Czkawka 前端。
 
-![Krokiet](https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6)
+![Krokiet](../icon.jpeg)
 
 与之前的 GTK 4 前端相比，它旨在跨所有平台（Linux、Windows、macOS）提供更一致的体验。
 
