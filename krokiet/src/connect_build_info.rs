@@ -51,7 +51,7 @@ fn connect_refresh_probes(app: &MainWindow) {
                     // Only process probes can change at runtime; update just those two.
                     gs.set_build_info_ffmpeg_runtime(info.ffmpeg_runtime);
                     gs.set_build_info_ffprobe_runtime(info.ffprobe_runtime);
-                    gs.set_build_info_diagnostic_text(info.format_diagnostic_text("Krokiet").into());
+                    gs.set_build_info_diagnostic_text(info.format_diagnostic_text("Cleaner").into());
                     gs.set_build_info_refresh_running(false);
                 })
                 .expect("MainWindow dropped while callback is still live");

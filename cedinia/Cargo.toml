@@ -1,13 +1,13 @@
 [package]
 name = "cedinia"
 version = "12.0.2"
-authors = ["Rafał Mikrut <mikrutrafal@protonmail.com>"]
+authors = ["BG5CGQ <noreply@example.com>"]
 edition = "2024"
 rust-version = "1.94.1"
-description = "Android touch-friendly GUI for Czkawka Core - named after the Battle of Cedynia (972 AD)"
+description = "Android touch-friendly GUI for Purge Core"
 license = "GPL-3.0-only"
-homepage = "https://github.com/qarmin/czkawka"
-repository = "https://github.com/qarmin/czkawka"
+homepage = "https://github.com/zny05/Duplicate-Purge"
+repository = "https://github.com/zny05/Duplicate-Purge"
 build = "build.rs"
 
 # Android requires a cdylib crate type
@@ -86,8 +86,8 @@ winit_software = ["slint/renderer-winit-software"]
 
 #  Android packaging metadata (used by cargo-apk)
 [package.metadata.android]
-package = "io.github.qarmin.cedinia"
-label = "Cedinia"
+package = "io.github.BG5CGQ.purge"
+label = "Cleaner"
 resources = "res"
 
 [package.metadata.android.sdk]

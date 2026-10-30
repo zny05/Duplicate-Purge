@@ -1,13 +1,13 @@
 [package]
 name = "czkawka_gui"
 version = "12.0.2"
-authors = ["Rafał Mikrut <mikrutrafal@protonmail.com>"]
+authors = ["BG5CGQ <noreply@example.com>"]
 edition = "2024"
 rust-version = "1.94.1"
-description = "GTK frontend of Czkawka"
+description = "GTK frontend of Purge"
 license = "MIT"
-homepage = "https://github.com/qarmin/czkawka"
-repository = "https://github.com/qarmin/czkawka"
+homepage = "https://github.com/zny05/Duplicate-Purge"
+repository = "https://github.com/zny05/Duplicate-Purge"
 
 [dependencies]
 gdk4 = { version = "0.11.0", default-features = false, features = ["v4_6"] }

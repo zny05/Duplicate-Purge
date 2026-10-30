@@ -7,7 +7,7 @@ from pathlib import Path
 
 CORE_MANIFEST = "czkawka_core/Cargo.toml"
 CRATES = ["czkawka_core", "czkawka_cli", "czkawka_gui", "krokiet", "cedinia"]
-METAINFOS = ["data/com.github.qarmin.czkawka.metainfo.xml", "data/io.github.qarmin.krokiet.metainfo.xml"]
+METAINFOS = ["data/com.github.BG5CGQ.purge.metainfo.xml", "data/io.github.BG5CGQ.cleaner.metainfo.xml"]
 
 
 @dataclass
@@ -48,10 +48,10 @@ def build_rules(old: str, new: str, iso_date: str) -> list[Rule]:
     rules = [
         Rule("cedinia/android/app/build.gradle.kts", f'versionName = "{esc}"', f'versionName = "{new}"'),
         Rule("cedinia/ui/screens/settings_screen.slint", f'"Cedinia {esc}"', f'"Cedinia {new}"'),
-        Rule("krokiet/ui/main_window.slint", f'"Krokiet\\\\n{esc}"', f'"Krokiet\\\\n{new}"'),
+        Rule("krokiet/ui/main_window.slint", f'"Cleaner\\\\n{esc}"', f'"Cleaner\\\\n{new}"'),
         Rule("krokiet/ui/screens/about.slint", f'text: "{esc}";', f'text: "{new}";'),
         Rule("czkawka_gui/ui/about_dialog.ui", f'name="version">{esc}<', f'name="version">{new}<'),
-        Rule("czkawka_gui/ui/main_window.ui", f"Czkawka {esc}<", f"Czkawka {new}<"),
+        Rule("czkawka_gui/ui/main_window.ui", f"Purge {esc}<", f"Purge {new}<"),
         Rule("misc/cargo/PublishCore.sh", f'NUMBER="{esc}"', f'NUMBER="{new}"'),
         Rule("misc/cargo/PublishOther.sh", f'NUMBER="{esc}"', f'NUMBER="{new}"'),
         Rule(".github/ISSUE_TEMPLATE/bug_report.md", f"version: {esc},", f"version: {new},"),

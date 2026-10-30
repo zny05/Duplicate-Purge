@@ -64,7 +64,7 @@ just android_logc           # logcat: everything from Cedinia
 just android_devices        # list connected ADB devices
 
 #  Uninstall 
-adb uninstall io.github.qarmin.cedinia
+adb uninstall io.github.BG5CGQ.cleaner
 
 #  Panic backtrace 
 RUST_BACKTRACE=1 just android_build

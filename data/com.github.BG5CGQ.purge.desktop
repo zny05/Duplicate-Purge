@@ -1,13 +1,13 @@
 [Desktop Entry]
 Categories=System;FileTools
-Exec=czkawka_gui
-Icon=com.github.qarmin.czkawka
-StartupWMClass=czkawka_gui
+Exec=purge
+Icon=com.github.BG5CGQ.purge
+StartupWMClass=purge
 Terminal=false
-TryExec=czkawka_gui
+TryExec=purge
 Type=Application
 
-Name=Czkawka
+Name=Purge
 
 Name[it]=Singhiozzo
 Name[pt_BR]=Comparador de Arquivos Duplicados Czkawka
@@ -57,7 +57,7 @@ Comment[zh_TW]=用於清理系統並尋找重複檔案、空資料夾與相似�
 Comment[ar]=تطبيق متعدد الوظائف لتنظيف النظام والعثور على الملفات المكررة والمجلدات الفارغة والملفات المتشابهة.
 Comment[hi]=सिस्टम को साफ करने और डुप्लिकेट, खाली फ़ोल्डर और समान फ़ाइलें खोजने के लिए बहुउद्देश्यीय ऐप।
 
-Keywords=Hiccup;duplicate;same;similar;cleaner;copy;copies;compare;files;
+Keywords=Purge;duplicate;same;similar;cleaner;copy;copies;compare;files;
 
 Keywords[pl]=czkawka;duplikaty;podobne;kopie;czyszczenie;pliki;
 Keywords[de]=duplikate;ähnlich;kopien;reinigen;dateien;

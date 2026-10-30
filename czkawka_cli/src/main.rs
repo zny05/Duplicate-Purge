@@ -58,9 +58,9 @@ fn main() {
     }
     let command = Args::parse().command;
 
-    let config_cache_path_set_result = set_config_cache_path("Czkawka", "Czkawka");
-    setup_logger(true, "czkawka_cli", filtering_messages);
-    print_version_mode("Czkawka cli");
+    let config_cache_path_set_result = set_config_cache_path("Purge", "Purge");
+    setup_logger(true, "purge_cli", filtering_messages);
+    print_version_mode("Purge cli");
     print_infos_and_warnings(config_cache_path_set_result.infos, config_cache_path_set_result.warnings);
 
     if cfg!(debug_assertions) {

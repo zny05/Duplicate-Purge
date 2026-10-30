@@ -1,10 +1,10 @@
-// CediniaFilePicker.java
+// CleanerFilePicker.java
 // Launches the Android Storage Access Framework folder picker and calls back into
 // Rust once the user makes a selection.
 //
 // For NativeActivity (no ComponentActivity): shows an AlertDialog with an EditText
 // so the user can type/paste a path.  The SAF picker via startActivityForResult is
-// also attempted if the manifest activity is CediniaActivity.
+// also attempted if the manifest activity is CleanerActivity.
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -22,10 +22,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-public class CediniaFilePicker {
-    private static final String TAG = "CediniaFilePicker";
+public class CleanerFilePicker {
+    private static final String TAG = "CleanerFilePicker";
 
-    // Request codes used with startActivityForResult (CediniaActivity path)
+    // Request codes used with startActivityForResult (CleanerActivity path)
     static final int REQ_INCLUDE = 0x4345_0001;
     static final int REQ_EXCLUDE = 0x4345_0002;
 
@@ -33,7 +33,7 @@ public class CediniaFilePicker {
     private static PowerManager.WakeLock sWakeLock = null;
 
     /**
-     * Acquire a PARTIAL_WAKE_LOCK so the CPU keeps running while Czkawka
+     * Acquire a PARTIAL_WAKE_LOCK so the CPU keeps running while Purge
      * scans files in the background.  Safe to call from any thread.
      * A 60-minute safety timeout is set in case releaseWakeLock is never called.
      */
@@ -47,7 +47,7 @@ public class CediniaFilePicker {
             Log.e(TAG, "acquireWakeLock: PowerManager not available");
             return;
         }
-        sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Cedinia:ScanWakeLock");
+        sWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Cleaner:ScanWakeLock");
         sWakeLock.acquire(60 * 60 * 1000L /* 60 minutes timeout */);
         Log.i(TAG, "acquireWakeLock: acquired");
     }
@@ -416,9 +416,9 @@ public class CediniaFilePicker {
         // Use a headless Fragment so that startActivityForResult / onActivityResult
         // works correctly with a plain NativeActivity (no subclass required).
         try {
-            Log.i(TAG, "launchPicker: launching via CediniaPickerFragment"
+            Log.i(TAG, "launchPicker: launching via CleanerPickerFragment"
                     + " isInclude=" + isInclude + " startPath='" + startPath + "'");
-            CediniaPickerFragment.launch(activity, isInclude, startPath);
+            CleanerPickerFragment.launch(activity, isInclude, startPath);
         } catch (Exception e) {
             // Fallback: if the Fragment approach fails for any reason, offer a
             // text-entry dialog so the user can still type a path manually.
@@ -472,7 +472,7 @@ public class CediniaFilePicker {
     }
 
     /**
-     * Called by CediniaActivity.onActivityResult (SAF path).
+     * Called by CleanerActivity.onActivityResult (SAF path).
      */
     public static void handleActivityResult(
             Activity activity,

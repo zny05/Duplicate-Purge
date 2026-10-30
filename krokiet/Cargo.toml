@@ -1,13 +1,13 @@
 [package]
 name = "krokiet"
 version = "12.0.2"
-authors = ["Rafał Mikrut <mikrutrafal@protonmail.com>"]
+authors = ["BG5CGQ <noreply@example.com>"]
 edition = "2024"
 rust-version = "1.94.1"
-description = "Slint frontend of Czkawka Core"
+description = "Slint frontend of Purge Core"
 license = "GPL-3.0-only"
-homepage = "https://github.com/qarmin/czkawka"
-repository = "https://github.com/qarmin/czkawka"
+homepage = "https://github.com/zny05/Duplicate-Purge"
+repository = "https://github.com/zny05/Duplicate-Purge"
 build = "build.rs"
 
 [dependencies]

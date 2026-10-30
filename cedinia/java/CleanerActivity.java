@@ -1,8 +1,8 @@
-// CediniaActivity.java
+// CleanerActivity.java
 // Thin NativeActivity subclass that intercepts onActivityResult and forwards
-// it to the CediniaFilePicker helper, which then calls back into Rust via JNI.
+// it to the CleanerFilePicker helper, which then calls back into Rust via JNI.
 //
-// Usage: set android:name=".CediniaActivity" in the manifest activity element.
+// Usage: set android:name=".CleanerActivity" in the manifest activity element.
 // cargo-apk injects the package name; we declare the package-less class here
 // because the DEX is loaded dynamically (via InMemoryDexClassLoader) and the
 // real package name is resolved at load time by the Rust side.
@@ -13,7 +13,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
-public class CediniaActivity extends NativeActivity {
+public class CleanerActivity extends NativeActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +49,6 @@ public class CediniaActivity extends NativeActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        CediniaFilePicker.handleActivityResult(this, requestCode, resultCode, data);
+        CleanerFilePicker.handleActivityResult(this, requestCode, resultCode, data);
     }
 }

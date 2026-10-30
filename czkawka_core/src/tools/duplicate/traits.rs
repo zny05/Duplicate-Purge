@@ -350,7 +350,7 @@ impl PrintResults for DuplicateFinder {
         Ok(())
     }
 
-    // TODO - check if is possible to save also data in header about size and name in SizeName mode - https://github.com/qarmin/czkawka/issues/1137
+    // TODO - check if is possible to save also data in header about size and name in SizeName mode - https://github.com/zny05/Duplicate-Purge/issues/1137
     fn save_results_to_file_as_json(&self, file_name: &str, pretty_print: bool) -> io::Result<()> {
         if self.get_use_reference() {
             match self.get_params().check_method {

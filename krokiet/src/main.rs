@@ -97,8 +97,8 @@ pub use ui::*;
 
 fn main() {
     register_image_decoding_hooks();
-    let config_cache_path_set_result = set_config_cache_path("Czkawka", "Krokiet");
-    let cli_args = process_cli_args("Krokiet", "krokiet_gui", std::env::args().skip(1).collect());
+    let config_cache_path_set_result = set_config_cache_path("Purge", "Cleaner");
+    let cli_args = process_cli_args("Cleaner", "purge_gui", std::env::args().skip(1).collect());
 
     let (base_settings, custom_settings, preset_to_load) = load_initial_settings_from_file(cli_args.as_ref());
     if base_settings.use_manual_application_scale {
@@ -109,8 +109,8 @@ fn main() {
         }
     }
 
-    setup_logger(false, "krokiet", filtering_messages);
-    print_version_mode("Krokiet");
+    setup_logger(false, "purge", filtering_messages);
+    print_version_mode("Purge");
     print_infos_and_warnings(config_cache_path_set_result.infos, config_cache_path_set_result.warnings);
     print_krokiet_features();
 
@@ -324,5 +324,5 @@ pub(crate) fn print_krokiet_features() {
     #[cfg(feature = "femtovg_wgpu")]
     features.push("femtovg_wgpu");
 
-    info!("Krokiet features({}): [{}]", features.len(), features.join(", "));
+    info!("Purge features({}): [{}]", features.len(), features.join(", "));
 }

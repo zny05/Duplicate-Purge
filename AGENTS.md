@@ -1,4 +1,4 @@
-# Czkawka – Codebase Guide
+# Purge – Codebase Guide
 
 ## Language
 
@@ -38,7 +38,7 @@ Applies to every Rust crate in the workspace (`czkawka_core`, `czkawka_cli`, `cz
 - `unwrap()` only in tests.
 - `expect()` in production only when BOTH hold: there is no correct recovery path, and
   continuing would likely hide a serious bug - always with a precise, actionable message. This
-  is visible throughout Krokiet/Cedinia callback code: a Slint weak reference is upgraded with
+  is visible throughout Cleaner/Cedinia callback code: a Slint weak reference is upgraded with
   `expect()` because if the window is already gone there is nothing meaningful to do except crash.
 - Never silently swallow errors with `let _ = ...` unless the failure is genuinely irrelevant.
 - Model domain errors with explicit types (`thiserror`/enums), not raw strings.
@@ -236,7 +236,7 @@ An `Arc<Mutex<SharedModels>>` holds the last scan result and parameters of scan 
 
 ## cedinia
 
-The Android (and secondary desktop) GUI. Architecture mirrors Krokiet but adapts to mobile
+The Android (and secondary desktop) GUI. Architecture mirrors Cleaner but adapts to mobile
 constraints. Compiled as `cdylib` for Android (loaded via `android-activity`).
 
 **Entry points:**
@@ -249,7 +249,7 @@ constraints. Compiled as `cdylib` for Android (loaded via `android-activity`).
 - System insets (`inset_top`, `inset_bottom`) plumbed through to Slint for edge-to-edge layout.
 - `android_logger` routes Rust log output to logcat.
 
-**Differences from Krokiet:**
+**Differences from Cleaner:**
 - Has `SimilarVideos` (audio-fingerprint matching only, via `rusty-chromaprint`), but not
   `VideoOptimizer` - ffmpeg-based transcoding/crop-detection is not available on Android.
 - Touch-optimised UI (`cedinia/ui/`); momentum-scroll views, bottom sheets, FAB.

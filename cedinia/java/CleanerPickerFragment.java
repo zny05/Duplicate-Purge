@@ -1,10 +1,10 @@
-// CediniaPickerFragment.java
+// CleanerPickerFragment.java
 // Headless Fragment used to launch the SAF folder picker (ACTION_OPEN_DOCUMENT_TREE)
 // from a plain NativeActivity context.
 //
 // A Fragment's startActivityForResult + onActivityResult lifecycle is correctly
 // dispatched by the Activity framework even when the host Activity does NOT override
-// onActivityResult - so this avoids requiring CediniaActivity as the manifest activity.
+// onActivityResult - so this avoids requiring CleanerActivity as the manifest activity.
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -15,10 +15,10 @@ import android.os.Bundle;
 import android.provider.DocumentsContract;
 import android.util.Log;
 
-public class CediniaPickerFragment extends Fragment {
-    private static final String TAG = "CediniaPickerFrag";
+public class CleanerPickerFragment extends Fragment {
+    private static final String TAG = "CleanerPickerFrag";
 
-    // Request codes distinct from those in CediniaFilePicker to avoid collisions.
+    // Request codes distinct from those in CleanerFilePicker to avoid collisions.
     private static final int REQ_INCLUDE = 0x4345_0006;
     private static final int REQ_EXCLUDE = 0x4345_0007;
 
@@ -30,10 +30,10 @@ public class CediniaPickerFragment extends Fragment {
      */
     static void launch(final Activity activity, final boolean isInclude, final String startPath) {
         Log.i(TAG, "launch: isInclude=" + isInclude + " startPath='" + startPath + "'");
-        final CediniaPickerFragment frag = new CediniaPickerFragment();
+        final CleanerPickerFragment frag = new CleanerPickerFragment();
         frag.mIsInclude = isInclude;
         frag.mStartPath = (startPath != null) ? startPath : "";
-        final String tag = "cedinia_picker_" + (isInclude ? "inc" : "exc");
+        final String tag = "cleaner_picker_" + (isInclude ? "inc" : "exc");
         // Run on the UI thread in case we are called from a background thread.
         activity.runOnUiThread(new Runnable() {
             @Override
@@ -110,13 +110,13 @@ public class CediniaPickerFragment extends Fragment {
                 if (treeUri != null) {
                     Activity act = getActivity();
                     if (act != null) {
-                        CediniaFilePicker.persistPermission(act, treeUri);
+                        CleanerFilePicker.persistPermission(act, treeUri);
                     }
-                    String path = CediniaFilePicker.resolveTreeUriToPath(treeUri);
+                    String path = CleanerFilePicker.resolveTreeUriToPath(treeUri);
                     boolean isInclude = (requestCode == REQ_INCLUDE);
                     Log.i(TAG, "onActivityResult: resolved path='" + path
                             + "' isInclude=" + isInclude);
-                    CediniaFilePicker.onDirectoryPicked(path, isInclude);
+                    CleanerFilePicker.onDirectoryPicked(path, isInclude);
                 } else {
                     Log.w(TAG, "onActivityResult: treeUri is null");
                 }

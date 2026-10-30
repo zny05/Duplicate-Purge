@@ -1,13 +1,13 @@
 [Desktop Entry]
 Categories=System;FileTools
-Exec=krokiet
-Icon=io.github.qarmin.krokiet
-StartupWMClass=krokiet
+Exec=purge
+Icon=com.github.BG5CGQ.purge
+StartupWMClass=purge
 Terminal=false
-TryExec=krokiet
+TryExec=purge
 Type=Application
 
-Name=Krokiet
+Name=Cleaner
 
 Name[pl]=Krokiet
 Name[de]=Krokiet
@@ -57,7 +57,7 @@ Comment[zh_TW]=Krokiet - 用於尋找重複檔案、空資料夾與相似檔案�
 Comment[ar]=Krokiet - تطبيق متعدد الوظائف للعثور على الملفات المكررة والمجلدات الفارغة والملفات المتشابهة.
 Comment[hi]=Krokiet - डुप्लिकेट, खाली फ़ोल्डर और समान फ़ाइलें खोजने के लिए बहुउद्देश्यीय ऐप।
 
-Keywords=Krokiet;duplicate;same;similar;cleaner;copy;copies;compare;files;krokiet
+Keywords=Cleaner;duplicate;same;similar;cleaner;copy;copies;compare;files;purge
 
 Keywords[pl]=krokiet;duplikaty;podobne;kopie;czyszczenie;pliki;
 Keywords[de]=krokiet;duplikate;ähnlich;kopien;reinigen;dateien;

@@ -35,7 +35,7 @@ Krokiet-specific or tool-focused terms:
 
 Prebuilt binaries (no extra dependencies required) are available for Windows 10/11, macOS, and Ubuntu 22.04+.
 
-Download from the [GitHub releases page](https://github.com/qarmin/czkawka/releases).
+Download from the [GitHub releases page](https://github.com/zny05/Duplicate-Purge/releases).
 
 For the **Similar Videos** tool, **ffmpeg** must be installed separately:
 
@@ -408,8 +408,8 @@ For default paths, cache file descriptions, env var overrides, and portable-driv
 | OS | Path |
 |----|------|
 | Linux | `~/.config/krokiet/` |
-| macOS | `~/Library/Application Support/pl.Qarmin.Krokiet/` |
-| Windows | `C:\Users\<user>\AppData\Roaming\Qarmin\Krokiet\config\` |
+| macOS | `~/Library/Application Support/pl.BG5CGQ.Krokiet/` |
+| Windows | `C:\Users\<user>\AppData\Roaming\BG5CGQ\Cleaner\config\` |
 
 Note: there is no Krokiet Flatpak. The Flathub package is GTK-only and frozen at v10.0.
 

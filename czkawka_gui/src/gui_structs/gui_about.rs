@@ -32,7 +32,7 @@ impl GuiAbout {
         // First clean it with regex " \<[^\n]+" and next with " +[0-9]+\t" and at end replace "([^\n]+)" with ""$1"," (or ""\0",")
         // This should be updated only before releasing new version
         about_dialog.set_authors(&[
-            "Rafał Mikrut",
+            "BG5CGQ",
             "Alexis Lefebvre",
             "Thomas Andreas Jung",
             "Peter Blackson",
@@ -112,7 +112,7 @@ impl GuiAbout {
 
         let button_repository = Button::builder().label("Repository").build();
         let button_donation = Button::builder().label("Donation").build();
-        let button_krokiet = Button::builder().label("Krokiet").build();
+        let button_krokiet = Button::builder().label("Cleaner").build();
         let button_instruction = Button::builder().label("Instruction").build();
         let button_translation = Button::builder().label("Translation").build();
         let button_other_apps = Button::builder().label("Other Apps").build();
@@ -138,7 +138,7 @@ impl GuiAbout {
     }
 
     pub(crate) fn update_language(&self) {
-        let mut comment_text: String = "2020 - 2026  Rafał Mikrut(qarmin)\n\n".to_string();
+        let mut comment_text: String = "2020 - 2026  BG5CGQ\n\n".to_string();
         comment_text += &flg!("about_window_motto");
         comment_text += "\n\n";
         comment_text += &flg!("krokiet_new_app");
@@ -151,7 +151,7 @@ impl GuiAbout {
 
         self.button_repository.set_label(&flg!("about_repository_button"));
         self.button_donation.set_label(&flg!("about_donation_button"));
-        self.button_krokiet.set_label("Krokiet");
+        self.button_krokiet.set_label("Cleaner");
         self.button_instruction.set_label(&flg!("about_instruction_button"));
         self.button_translation.set_label(&flg!("about_translation_button"));
         self.button_other_apps.set_label(&flg!("about_other_apps_button"));

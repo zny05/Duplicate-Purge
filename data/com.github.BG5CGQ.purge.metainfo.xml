@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.github.qarmin.czkawka</id>
-  <name>Czkawka</name>
+  <id>com.github.BG5CGQ.purge</id>
+  <name>Purge</name>
   <summary>Multi functional app to find duplicates, empty folders, similar images, broken files etc.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <description>
     <p>
-      Czkawka is simple, fast and easy to use app to remove unnecessary files from your computer.
+      Purge is simple, fast and easy to use app to remove unnecessary files from your computer.
     </p>
   </description>
-  <launchable type="desktop-id">com.github.qarmin.czkawka.desktop</launchable>
+  <launchable type="desktop-id">com.github.BG5CGQ.purge.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://user-images.githubusercontent.com/41945903/147875238-7f82fa27-c6dd-47e7-87ed-e253fb2cbc3e.png</image>
@@ -26,12 +26,12 @@
     <release version="12.0.2" date="2026-09-09"/>
   </releases>
   <content_rating type="oars-1.0"/>
-  <developer_name>Rafał Mikrut</developer_name>
-    <developer id="com.github.qarmin">
-      <name>Rafał Mikrut</name>
+  <developer_name>BG5CGQ</developer_name>
+    <developer id="com.github.BG5CGQ">
+      <name>BG5CGQ</name>
   </developer>
-  <url type="homepage">https://github.com/qarmin/czkawka</url>
-  <url type="bugtracker">https://github.com/qarmin/czkawka/issues</url>
-  <url type="donation">https://github.com/sponsors/qarmin</url>
-  <url type="translate">https://crowdin.com/project/czkawka</url>
+  <url type="homepage">https://github.com/zny05/Duplicate-Purge</url>
+  <url type="bugtracker">https://github.com/zny05/Duplicate-Purge/issues</url>
+  <url type="donation">https://github.com/sponsors/BG5CGQ</url>
+  <url type="translate">https://crowdin.com/project/purge</url>
 </component>

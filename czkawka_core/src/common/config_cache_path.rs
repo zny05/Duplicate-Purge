@@ -109,10 +109,10 @@ pub struct ConfigCachePathSetResult {
 // This function must be executed, to not crash, when gathering config/cache path
 pub fn set_config_cache_path(cache_name: &'static str, config_name: &'static str) -> ConfigCachePathSetResult {
     // By default, such folders are used:
-    // Lin: /home/username/.config/czkawka
-    // LinFlatpak: /home/username/.var/app/com.github.qarmin.czkawka/config/czkawka
-    // Win: C:\Users\Username\AppData\Roaming\Qarmin\Czkawka\config
-    // Mac: /Users/Username/Library/Application Support/pl.Qarmin.Czkawka
+    // Lin: /home/username/.config/purge
+    // LinFlatpak: /home/username/.var/app/com.github.BG5CGQ.purge/config/purge
+    // Win: C:\Users\Username\AppData\Roaming\BG5CGQ\Purge\config
+    // Mac: /Users/Username/Library/Application Support/pl.BG5CGQ.Purge
 
     let mut infos = Vec::new();
     let mut warnings = Vec::new();
@@ -121,10 +121,10 @@ pub fn set_config_cache_path(cache_name: &'static str, config_name: &'static str
     let cache_folder_env = env::var("CZKAWKA_CACHE_PATH").unwrap_or_default().trim().to_string();
 
     let (android_cache_folder, android_config_folder) = android_default_dirs(cache_name, config_name);
-    let default_cache_folder = ProjectDirs::from("pl", "Qarmin", cache_name)
+    let default_cache_folder = ProjectDirs::from("pl", "BG5CGQ", cache_name)
         .map(|proj_dirs| proj_dirs.cache_dir().to_path_buf())
         .or(android_cache_folder);
-    let default_config_folder = ProjectDirs::from("pl", "Qarmin", config_name)
+    let default_config_folder = ProjectDirs::from("pl", "BG5CGQ", config_name)
         .map(|proj_dirs| proj_dirs.config_dir().to_path_buf())
         .or(android_config_folder);
 

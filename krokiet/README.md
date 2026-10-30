@@ -1,16 +1,16 @@
 
-![krokiet_logo](https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441)
+![cleaner_logo](https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441)
 
-Krokiet is a new Czkawka frontend written in Slint.
+Cleaner is a new Purge frontend written in Slint.
 
-![Krokiet](https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6)
+![Cleaner](https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6)
 
 It aims to provide a more consistent experience across all platforms (Linux, Windows, macOS) compared to the previous GTK 4 frontend.
 
 ## How to install?
 Prebuilt binaries are available for Windows 10/11, Mac and Ubuntu 22.04(base)/24.04(with additional libraries) - or distros with same/newer glibc/libraries versions.
 
-You can download them from https://github.com/qarmin/czkawka/releases/, which contains recommendations, which variant to use depending on your needs.
+You can download them from https://github.com/zny05/Duplicate-Purge/releases/, which contains recommendations, which variant to use depending on your needs.
 
 ## Requirements
 

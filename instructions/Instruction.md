@@ -56,8 +56,8 @@ JSON-format cache files can be manually edited (useful when moving a collection 
 | OS | GTK/CLI Config | Krokiet Config | Cache (all frontends) |
 |----|----------------|----------------|-----------------------|
 | Linux | `~/.config/czkawka/` | `~/.config/krokiet/` | `~/.cache/czkawka/` |
-| macOS | `~/Library/Application Support/pl.Qarmin.Czkawka/` | `~/Library/Application Support/pl.Qarmin.Krokiet/` | `~/Library/Caches/pl.Qarmin.Czkawka/` |
-| Windows | `%APPDATA%\Qarmin\Czkawka\config\` | `%APPDATA%\Qarmin\Krokiet\config\` | `%LOCALAPPDATA%\Qarmin\Czkawka\cache\` |
+| macOS | `~/Library/Application Support/pl.BG5CGQ.Czkawka/` | `~/Library/Application Support/pl.BG5CGQ.Krokiet/` | `~/Library/Caches/pl.BG5CGQ.Czkawka/` |
+| Windows | `%APPDATA%\BG5CGQ\Purge\config\` | `%APPDATA%\BG5CGQ\Cleaner\config\` | `%LOCALAPPDATA%\BG5CGQ\Purge\cache\` |
 
 Override with environment variables:
 

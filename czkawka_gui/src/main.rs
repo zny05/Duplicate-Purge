@@ -75,7 +75,7 @@ pub const CZKAWKA_GTK_TOOL_NUMBER: usize = TOOLS_NUMBER - 3; // Missing exif, vi
 fn main() {
     register_image_decoding_hooks();
     czkawka_core::common::build_runtime_info::BuildRuntimeInfo::get();
-    let config_cache_path_set_result = set_config_cache_path("Czkawka", "Czkawka");
+    let config_cache_path_set_result = set_config_cache_path("Purge", "Purge");
 
     // To remove info dialog about deprecated czkawka, remove exists_krokiet_info_file and set needs_to_open_dialog_about_krokiet to false
     let exists_krokiet_info_file = get_config_cache_path().is_some_and(|cache_config| {
@@ -98,16 +98,16 @@ fn main() {
     let application = Application::new(None::<String>, ApplicationFlags::HANDLES_OPEN | ApplicationFlags::HANDLES_COMMAND_LINE);
 
     #[cfg(target_os = "linux")]
-    glib::set_prgname(Some("com.github.qarmin.czkawka"));
+    glib::set_prgname(Some("com.github.BG5CGQ.purge"));
 
     application.connect_command_line(move |app, cmdline| {
         let cli_args = process_cli_args(
-            "Czkawka Gui",
-            "czkawka_gui",
+            "Purge Gui",
+            "purge_gui",
             cmdline.arguments().into_iter().skip(1).map(|x| x.to_string_lossy().to_string()).collect(),
         );
-        setup_logger(false, "czkawka_gui", filtering_messages);
-        print_version_mode("Czkawka gtk");
+        setup_logger(false, "purge_gui", filtering_messages);
+        print_version_mode("Purge gtk");
         print_infos_and_warnings(config_cache_path_set_result.infos.clone(), config_cache_path_set_result.warnings.clone());
         czkawka_core::common::build_runtime_info::BuildRuntimeInfo::get().log_runtime_summary();
         build_ui(app, cli_args.as_ref(), needs_to_open_dialog_about_krokiet);
@@ -191,5 +191,5 @@ fn build_ui(application: &Application, cli_args: Option<&CliResult>, needs_to_op
 pub(crate) fn print_czkawka_gui_info(thread_number: usize) {
     let gtk_version = format!("{}.{}.{}", gtk4::major_version(), gtk4::minor_version(), gtk4::micro_version());
 
-    info!("Czkawka Gui - used thread number: {thread_number}, gtk version {gtk_version}");
+    info!("Purge Gui - used thread number: {thread_number}, gtk version {gtk_version}");
 }

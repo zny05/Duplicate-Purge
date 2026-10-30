@@ -10,9 +10,9 @@ The name refers to the Battle of Cedynia in 972, a victory that was significant 
 
 ## Installation
 
-The easiest way to install it (at least for now) is to download the latest release APK from the releases page: https://github.com/qarmin/czkawka/releases
+The easiest way to install it (at least for now) is to download the latest release APK from the releases page: https://github.com/zny05/Duplicate-Purge/releases
 
-Alternatively, you can download the latest nightly build here: https://github.com/qarmin/czkawka/releases/download/Nightly/cedinia.apk
+Alternatively, you can download the latest nightly build here: https://github.com/zny05/Duplicate-Purge/releases/download/Nightly/cedinia.apk
 
 There is currently no distribution via F-Droid, Google Play Store, or any other app store, but I am open to suggestions and contributions in this area.
 

@@ -1,13 +1,13 @@
 [package]
 name = "czkawka_core"
 version = "12.0.2"
-authors = ["Rafał Mikrut <mikrutrafal@protonmail.com>"]
+authors = ["BG5CGQ <noreply@example.com>"]
 edition = "2024"
 rust-version = "1.94.1"
-description = "Core of Czkawka app"
+description = "Core of Purge app"
 license = "MIT"
-homepage = "https://github.com/qarmin/czkawka"
-repository = "https://github.com/qarmin/czkawka"
+homepage = "https://github.com/zny05/Duplicate-Purge"
+repository = "https://github.com/zny05/Duplicate-Purge"
 build = "build.rs"
 
 [dependencies]

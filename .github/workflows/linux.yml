@@ -219,7 +219,7 @@ jobs:
             linux_krokiet_heif_raw_avif_all_backends_${{ env.ARCHNAME }}.zip
           token: ${{ secrets.PAT_REPOSITORY }}
 
-  ### MUSL CLI and Krokiet Release and Debug
+  ### MUSL CLI and Cleaner Release and Debug
   # GUI not works with MUSL :(
   # https://github.com/slint-ui/slint/issues/7586
   # https://github.com/rust-windowing/winit/issues/1818
@@ -273,7 +273,7 @@ jobs:
 
   ### Below, builds that do not produce artifacts
 
-  ### 32 bit CLI and Krokiet Release and Debug - TODO test also gtk gui but it requires gtk4:i386 and also would be good to test libraw and heif
+  ### 32 bit CLI and Cleaner Release and Debug - TODO test also gtk gui but it requires gtk4:i386 and also would be good to test libraw and heif
   linux-all-debug-32bit:
     if: ${{ github.ref != 'refs/heads/master' }}
     runs-on: ubuntu-22.04
@@ -382,7 +382,7 @@ jobs:
 
       - name: Linux Regression Test
         run: |
-          wget -q https://github.com/qarmin/czkawka/releases/download/6.0.0/TestFiles.zip
+          wget -q https://github.com/zny05/Duplicate-Purge/releases/download/6.0.0/TestFiles.zip
           cd ci_tester
           cargo build --release
           cd ..

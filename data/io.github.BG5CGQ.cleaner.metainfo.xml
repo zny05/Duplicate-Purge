@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.qarmin.krokiet</id>
-  <name>Krokiet</name>
+  <id>io.github.BG5CGQ.cleaner</id>
+  <name>Cleaner</name>
   <summary>Multi functional app to find duplicates, similar images and many more</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
   <description>
-    <p>Krokiet is a multi functional app that finds:</p>
+    <p>Cleaner is a multi functional app that finds:</p>
     <ul>
       <li>Duplicates</li>
       <li>Similar images</li>
@@ -23,7 +23,7 @@
       <li>Exif tags</li>
     </ul>
   </description>
-  <launchable type="desktop-id">io.github.qarmin.krokiet.desktop</launchable>
+  <launchable type="desktop-id">com.github.BG5CGQ.purge.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6</image>
@@ -39,11 +39,11 @@
     <release version="12.0.2" date="2026-09-09"/>
   </releases>
   <content_rating type="oars-1.0"/>
-  <developer id="io.github.qarmin">
-    <name>Rafał Mikrut</name>
+  <developer id="io.github.BG5CGQ">
+    <name>BG5CGQ</name>
   </developer>
-  <url type="homepage">https://github.com/qarmin/czkawka</url>
-  <url type="bugtracker">https://github.com/qarmin/czkawka/issues</url>
-  <url type="donation">https://github.com/sponsors/qarmin</url>
-  <url type="translate">https://crowdin.com/project/czkawka</url>
+  <url type="homepage">https://github.com/zny05/Duplicate-Purge</url>
+  <url type="bugtracker">https://github.com/zny05/Duplicate-Purge/issues</url>
+  <url type="donation">https://github.com/sponsors/BG5CGQ</url>
+  <url type="translate">https://crowdin.com/project/purge</url>
 </component>

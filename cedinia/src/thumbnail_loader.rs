@@ -53,13 +53,13 @@ pub fn cache_limit_bytes() -> u64 {
 pub fn thumbnail_cache_dir() -> PathBuf {
     #[cfg(target_os = "android")]
     {
-        let base = crate::android_cache_path().unwrap_or("/data/data/io.github.qarmin.cedinia/cache");
+        let base = crate::android_cache_path().unwrap_or("/data/data/io.github.BG5CGQ.purge/cache");
         PathBuf::from(base).join("img_thumbnails")
     }
     #[cfg(not(target_os = "android"))]
     {
         let base = std::env::var("XDG_CACHE_HOME").map_or_else(|_| PathBuf::from(std::env::var("HOME").unwrap_or_default()).join(".cache"), PathBuf::from);
-        base.join("cedinia").join("img_thumbnails")
+        base.join("purge").join("img_thumbnails")
     }
 }
 

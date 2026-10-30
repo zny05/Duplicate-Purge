@@ -12,27 +12,27 @@ struct OtherApp {
 const OTHER_APPS: &[OtherApp] = &[
     OtherApp {
         name: "Szyszka",
-        url: "https://github.com/qarmin/szyszka",
+        url: "https://github.com/BG5CGQ/szyszka",
     },
     OtherApp {
         name: "Mykrut",
-        url: "https://github.com/qarmin/mykrut",
+        url: "https://github.com/BG5CGQ/mykrut",
     },
     OtherApp {
         name: "Dcmki Viewer",
-        url: "https://github.com/qarmin/dcmki_viewer",
+        url: "https://github.com/BG5CGQ/dcmki_viewer",
     },
     OtherApp {
         name: "Video Thumbnailer",
-        url: "https://github.com/qarmin/video_thumbnailer",
+        url: "https://github.com/BG5CGQ/video_thumbnailer",
     },
     OtherApp {
         name: "Space Finder",
-        url: "https://github.com/qarmin/space_finder",
+        url: "https://github.com/BG5CGQ/space_finder",
     },
     OtherApp {
         name: "System Info Collector",
-        url: "https://github.com/qarmin/system-info-collector",
+        url: "https://github.com/BG5CGQ/system-info-collector",
     },
 ];
 

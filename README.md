@@ -1,15 +1,15 @@
-<div align="center"><img src="https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441" alt="krokiet_logo" width="600" /></div>
-     
-**Krokiet** ((IPA: [ˈkrɔcɛt]), "croquette" in Polish) new generation GUI frontend, simple, multiplatform, fast and free app to remove unnecessary files from your computer.
+<div align="center"><img src="https://github.com/user-attachments/assets/f5e4b290-d001-4cf4-9f52-dab65a30e441" alt="cleaner_logo" width="600" /></div>
+	     
+**Cleaner** new generation GUI frontend, simple, multiplatform, fast and free app to remove unnecessary files from your computer.
 
 
-<div align="center"><img src="https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png" alt="czkawka_logo" width="600" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/41945903/102616149-66490400-4137-11eb-9cd6-813b2b070834.png" alt="purge_logo" width="600" /></div>
 
-**Czkawka** (_tch•kav•ka_ (IPA: [ˈʧ̑kafka]), "hiccup" in Polish) older gtk4 GUI frontend, superseded by Krokiet. **Version 12.0 is the last released version** - no new binaries will be provided. New users and existing users are encouraged to switch to Krokiet.
+**Purge** older gtk4 GUI frontend, superseded by Cleaner. **Version 12.0 is the last released version** - no new binaries will be provided. New users and existing users are encouraged to switch to Cleaner.
 
 <div align="center"><img src="https://github.com/user-attachments/assets/ed6dfeea-a984-49e8-a621-8d6ae521c760" alt="cedinia_logo" width="600" /></div>
 
-**Cedinia** - Android touch friendly GUI frontend for Czkawka Core, built with Slint.
+**Cedinia** - Android touch friendly GUI frontend for Purge Core, built with Slint.
 
 ## Features
 
@@ -23,7 +23,7 @@
 - **GUI frontend** - uses Slint or GTK 4 frameworks
 - **Core library** - allows to reuse functionality in other apps
 - **Android app** - touch-friendly frontend for Android devices
-- **No spying** - Czkawka does not have access to the Internet, nor does it collect any user information or statistics
+- **No spying** - Purge does not have access to the Internet, nor does it collect any user information or statistics
 - **Multilingual** - support multiple languages like Polish, English or Italian
 - **Multiple tools to use**:
     - **Duplicates** - Finds duplicates based on file name, size or hash
@@ -41,26 +41,26 @@
     - **Video Optimizer** - Crops from static parts and converts videos to more efficient formats
     - **Bad Names** - Finds files with names that may be not wanted (e.g., containing special characters)
 
-![Krokiet](https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6)
+![Cleaner](https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6)
 
-![Czkawka](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
+![Purge](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
 
 Changelog about each version can be found in [CHANGELOG.md](Changelog.md).
 
-New releases can be found in [Github releases](https://github.com/qarmin/czkawka/releases) and nightly builds also in [Nightly releases](https://github.com/qarmin/czkawka/releases/tag/Nightly)
+New releases can be found in [Github releases](https://github.com/zny05/Duplicate-Purge/releases) and nightly builds also in [Nightly releases](https://github.com/zny05/Duplicate-Purge/releases/tag/Nightly)
 
 You can read more about the 12.0 release, its new features, and the issues that were fixed in the following articles:
-- English article - https://medium.com/@qarmin/krokiet-czkawka-12-0-6fa09c43c3b9
-- Polish article - https://medium.com/@qarmin/krokiet-czkawka-12-0-c5dad2116793
+- English article - https://medium.com/@zny05/cleaner-purge-12-0-6fa09c43c3b9
+- Polish article - https://medium.com/@zny05/cleaner-purge-12-0-c5dad2116793
 
 ## Usage, installation, compilation, requirements, license
 
 Each tool uses different technologies, so you can find instructions for each of them in the appropriate file:
 
-- [Krokiet GUI (Slint frontend)](krokiet/README.md)</br>
-- [Czkawka GUI (GTK frontend)](czkawka_gui/README.md)</br>
-- [Czkawka CLI](czkawka_cli/README.md)</br>
-- [Czkawka Core](czkawka_core/README.md)</br>
+- [Cleaner GUI (Slint frontend)](krokiet/README.md)</br>
+- [Purge GUI (GTK frontend)](czkawka_gui/README.md)</br>
+- [Purge CLI](czkawka_cli/README.md)</br>
+- [Purge Core](czkawka_core/README.md)</br>
 - [Cedinia](cedinia/README.md)</br>
 
 ## Comparison to other tools
@@ -68,7 +68,7 @@ Each tool uses different technologies, so you can find instructions for each of 
 In this comparison remember, that even if app have same features they may work different(e.g. one app may have more
 options to choose than other).
 
-|                           |   Krokiet   |   Czkawka   | Cedinia | FSlint |     DupeGuru      |  Bleachbit  |
+|                           |   Cleaner   |   Purge   | Cedinia | FSlint |     DupeGuru      |  Bleachbit  |
 |:-------------------------:|:-----------:|:-----------:|:-------:|:------:|:-----------------:|:-----------:|
 |         Language          |    Rust     |    Rust     |  Rust   | Python |   Python/Obj-C    |   Python    |
 |  Framework base language  |    Rust     |      C      |  Rust   |   C    | C/C++/Obj-C/Swift |      C      |
@@ -77,7 +77,7 @@ options to choose than other).
 |     Duplicate finder      |      ✔      |      ✔      |    ✔    |   ✔    |         ✔         |             |
 |        Empty files        |      ✔      |      ✔      |    ✔    |   ✔    |                   |             |
 |       Empty folders       |      ✔      |      ✔      |    ✔    |   ✔    |                   |             |
-|      Temporary files      |      ✔      |      ✔      |    ✔    |   ✔    |                   |      ✔      |
+|      Temporary files      |      ✔      |      ✔      |    ✔    |        |                   |      ✔      |
 |         Big files         |      ✔      |      ✔      |    ✔    |        |                   |             |
 |      Similar images       |      ✔      |      ✔      |    ✔    |        |         ✔         |             |
 |   Similar videos(audio)   |      ✔      |      ✔      |    ✔    |        |                   |             |
@@ -102,17 +102,17 @@ options to choose than other).
 |   In active development   |     Yes     |    No**     | Yes***  |   No   |  No<sup>*</sup>   |     Yes     |
 
 <p><sup>*</sup> Few small commits added recently and last version released in 2023</p> 
-<p><sup>**</sup> Czkawka GTK 12.0 was the last released version - no new binaries will be provided</p>
+<p><sup>**</sup> Purge GTK 12.0 was the last released version - no new binaries will be provided</p>
 <p><sup>***</sup> Cedinia is an android app, video tools are not available due missing ffmpeg in Android</p>
 
 ## Other apps
 
-There are many similar applications to Czkawka on the Internet, which do some things better and some things worse:
+There are many similar applications to Purge on the Internet, which do some things better and some things worse:
 
 ### GUI
 
 - [DupeGuru](https://github.com/arsenetar/dupeguru) - Many options to customize
-- [FSlint](https://github.com/pixelb/fslint) - A little outdated, but still have some tools not available in Czkawka
+- [FSlint](https://github.com/pixelb/fslint) - A little outdated, but still have some tools not available in Purge
 - [AntiDupl.NET](https://github.com/ermig1979/AntiDupl) - Shows a lot of metadata of compared images
 - [Video Duplicate Finder](https://github.com/0x90d/videoduplicatefinder) - Finds similar videos(surprising, isn't it)
 
@@ -127,15 +127,15 @@ console apps, then take a look at these:
 - [RdFind](https://github.com/pauldreik/rdfind) - Fast, but written in C++ ¯\\\_(ツ)\_/¯
 
 
-## Projects using Czkawka
+## Projects using Purge
 
-Czkawka exposes its common functionality through a crate called **`czkawka_core`**, which can be reused by other projects.
+Purge exposes its common functionality through a crate called **`czkawka_core`**, which can be reused by other projects.
 
-It is written in Rust and is used by all Czkawka frontends (`czkawka_gui`, `czkawka_cli`, `krokiet`, `cedinia`).
+It is written in Rust and is used by all Purge frontends (`czkawka_gui`, `czkawka_cli`, `krokiet`, `cedinia`).
 
 It is also used by external projects, such as:
 
-- **Czkawka Tauri** - https://github.com/shixinhuang99/czkawka-tauri - A Tauri-based GUI frontend for Czkawka.
+- **Purge Tauri** - https://github.com/shixinhuang99/czkawka-tauri - A Tauri-based GUI frontend for Purge.
 - **page-dewarp** - https://github.com/lmmx/page-dewarp - A library for dewarping document images using a cubic sheet model.
 
 Bindings are also available for:
@@ -152,7 +152,7 @@ Big thanks to Pádraig Brady, creator of fantastic FSlint, because without his w
 
 Thanks also to all the people who contributed to the project in every possible way
 
-Also, I really appreciate work of people that create crates on which Czkawka is based and for that I try to report bugs to make it even better.
+Also, I really appreciate work of people that create crates on which Purge is based and for that I try to report bugs to make it even better.
 
 ## How to help?
 
@@ -169,28 +169,28 @@ Also, I really appreciate work of people that create crates on which Czkawka is 
 ### Situation 1:
 
 - **S** - Hey Anon, I have a lot of junk on my disk, what should I do?
-- **Y** - Download Krokiet/Czkawka. They are completely free and works on almost every system.
+- **Y** - Download Cleaner/Purge. They are completely free and works on almost every system.
 - **S** - Thanks man!
 
 ### Situation 2:
 
 - **S** - I am so thirsty...
-- **Y** - Have you heard about Krokiet/Czkawka?
+- **Y** - Have you heard about Cleaner/Purge?
 - **S** - Wait, what?
-- **Y** - Krokiet and Czkawka, in case you did not know, let you clean unnecessary files from your disk. They are completely free...
+- **Y** - Cleaner and Purge, in case you did not know, let you clean unnecessary files from your disk. They are completely free...
 - **S** - That is nice, but I am thirsty...
 - **Y** - ...they work on Windows, Linux and macOS, and some people even port them to FreeBSD and Android...
 
 
 ## AI Policy
-The vast majority of the code in this project was written by me (qarmin) without using AI. However, as AI tools have improved and can significantly simplify development and reduce boilerplate, I see no reason to forbid their use. I have also added a AGENTS.md file to the repo to make it easier to provide AI tools with context about the project’s style and code structure.
+The vast majority of the code in this project was written by me (BG5CGQ) without using AI. However, as AI tools have improved and can significantly simplify development and reduce boilerplate, I see no reason to forbid their use. I have also added a AGENTS.md file to the repo to make it easier to provide AI tools with context about the project’s style and code structure.
 
 That said, every pull request, whether created with AI or not, must meet proper quality standards. The author must be able to clearly explain what the code does, without relying on AI for that explanation. I manually review every PR and test each change, so the risk of incorrect code slipping through is low. Still, to avoid wasting time, please refrain from submitting AI Slop PRs.
 
 ## Officially Supported Projects
-Only this repository, [prebuild-binaries](https://github.com/qarmin/czkawka/releases), projects on [crates.io](https://crates.io/crates/czkawka_gui) and [flathub](https://flathub.org/apps/com.github.qarmin.czkawka) are directly maintained by me.  
+Only this repository, [prebuild-binaries](https://github.com/zny05/Duplicate-Purge/releases), projects on [crates.io](https://crates.io/crates/czkawka_gui) and [flathub](https://flathub.org/apps/com.github.BG5CGQ.purge) are directly maintained by me.  
 
-Czkawka does not have an official website, so do not trust any sites that claim to be the official one.  
+Purge does not have an official website, so do not trust any sites that claim to be the official one.  
 
 If you use packages from unofficial sources, make sure they are safe.
 
@@ -200,10 +200,9 @@ The entire code in this repository is licensed under the [MIT](https://mit-licen
 
 All images and audio files are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-The Czkawka GTK GUI and CLI applications are licensed under the [MIT](https://mit-license.org/) license, while the Krokiet and Cedinia(due Slint license requirements) are licensed under the [GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+The Purge GTK GUI and CLI applications are licensed under the [MIT](https://mit-license.org/) license, while the Cleaner and Cedinia(due Slint license requirements) are licensed under the [GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
 ## Donations
 
 If you are using the app, I would appreciate a donation for its further development, which can be
-done [here](https://github.com/sponsors/qarmin).
-
+done [here](https://github.com/sponsors/BG5CGQ).

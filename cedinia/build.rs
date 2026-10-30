@@ -35,7 +35,7 @@ fn git_output<const N: usize>(args: [&str; N]) -> String {
 fn compile_android_java() {
     use android_build::{Dexer, JavaBuild};
 
-    let java_files = ["java/CediniaActivity.java", "java/CediniaFilePicker.java", "java/CediniaPickerFragment.java"];
+    let java_files = ["java/CleanerActivity.java", "java/CleanerFilePicker.java", "java/CleanerPickerFragment.java"];
 
     let out_dir: PathBuf = env::var_os("OUT_DIR").expect("OUT_DIR environment variable not set").into();
     let out_class_dir = out_dir.join("java_classes");

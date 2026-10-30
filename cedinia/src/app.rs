@@ -347,14 +347,14 @@ pub(crate) fn setup_logger_cache() {
 
     register_image_decoding_hooks();
     czkawka_core::common::build_runtime_info::BuildRuntimeInfo::get();
-    let config_cache_path_set_result = set_config_cache_path("cedinia", "cedinia");
+    let config_cache_path_set_result = set_config_cache_path("purge", "purge");
 
     #[cfg(not(target_os = "android"))]
     setup_logger(false, "cedinia", filtering_messages);
     #[cfg(target_os = "android")]
     setup_android_logger();
 
-    print_version_mode("Cedinia");
+    print_version_mode("Cleaner");
     print_infos_and_warnings(config_cache_path_set_result.infos, config_cache_path_set_result.warnings);
 }
 

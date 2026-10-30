@@ -598,7 +598,7 @@ export component SettingsScreen {
                         height: 140px;
                         background: CediniaColors.bg_surface;
                         Image {
-                            source: @image-url("../../icons/cedinia_logo.svg");
+                            source: @image-url("../../icons/icon.ico");
                             width: min(parent.width - 32px, 260px);
                             height: 120px;
                             x: (parent.width - self.width) / 2;
@@ -619,7 +619,7 @@ export component SettingsScreen {
                             spacing: 4px;
                             alignment: LayoutAlignment.center;
                             Text {
-                                text: "Cedinia 12.0.2";
+                                text: "Cleaner 12.0.2";
                                 color: CediniaColors.text_primary;
                                 font-size: Fonts.title_lg;
                                 font-weight: Fonts.bold;
@@ -657,7 +657,7 @@ export component SettingsScreen {
                                 min_h: 40px;
                                 bg: CediniaColors.accent_muted;
                                 fg: CediniaColors.accent_light;
-                                clicked => { AppState.open_url("https://github.com/qarmin/czkawka"); }
+                                clicked => { AppState.open_url("https://github.com/zny05/Duplicate-Purge"); }
                             }
 
                             TouchButton {
@@ -666,7 +666,7 @@ export component SettingsScreen {
                                 min_h: 40px;
                                 bg: CediniaColors.accent_muted;
                                 fg: CediniaColors.accent_light;
-                                clicked => { AppState.open_url("https://crowdin.com/project/czkawka"); }
+                                clicked => { AppState.open_url("https://crowdin.com/project/purge"); }
                             }
 
                             TouchButton {
@@ -675,7 +675,7 @@ export component SettingsScreen {
                                 min_h: 40px;
                                 bg: CediniaColors.accent_muted;
                                 fg: CediniaColors.accent_light;
-                                clicked => { AppState.open_url("https://github.com/sponsors/qarmin"); }
+                                clicked => { AppState.open_url("https://github.com/sponsors/BG5CGQ"); }
                             }
                         }
                     }

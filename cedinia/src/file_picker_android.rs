@@ -4,7 +4,7 @@ android_bridge! {
     dex = include_bytes!(concat!(env!("OUT_DIR"), "/classes.dex")),
 
     class FilePicker {
-        java_name = "CediniaFilePicker",
+        java_name = "CleanerFilePicker",
 
         static fn pick_include_directory(start_path: &str);
         static fn pick_exclude_directory(start_path: &str);

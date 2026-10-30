@@ -579,7 +579,7 @@ JSON files can be manually edited (e.g., to update paths when moving a collectio
 [dependencies]
 czkawka_core = { path = "../czkawka_core" }
 # OR from git:
-# czkawka_core = { git = "https://github.com/qarmin/czkawka" }
+# czkawka_core = { git = "https://github.com/zny05/Duplicate-Purge" }
 ```
 
 Optional features (require native libraries installed at build and runtime):

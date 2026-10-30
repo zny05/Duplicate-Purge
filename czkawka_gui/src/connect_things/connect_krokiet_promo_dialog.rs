@@ -39,7 +39,7 @@ pub fn show_krokiet_promo_dialog(window_main: &gtk4::Window) {
         .build();
 
     let link_text = format!(
-        "<a href=\"https://github.com/qarmin/czkawka/releases\">{}</a>  |  <a href=\"https://github.com/qarmin/czkawka/tree/master/krokiet\">{}</a>",
+        "<a href=\"https://github.com/zny05/Duplicate-Purge/releases\">{}</a>  |  <a href=\"https://github.com/zny05/Duplicate-Purge/tree/master/krokiet\">{}</a>",
         flg!("krokiet_promo_link_download"),
         flg!("krokiet_promo_link_project")
     );

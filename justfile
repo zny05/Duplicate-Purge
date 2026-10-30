@@ -6,7 +6,7 @@ set export := true
 # export ANDROID_NDK_HOME=~/android-sdk/ndk/26.x.x
 
 adb := "adb"
-apk_package := "io.github.qarmin.cedinia"
+apk_package := "io.github.BG5CGQ.purge"
 apk_activity := "android.app.NativeActivity"
 
 build_all: && fix
@@ -16,7 +16,7 @@ build_all: && fix
     cargo test
 
 itests:
-    [ ! -f TestFiles.zip ] && wget https://github.com/qarmin/czkawka/releases/download/6.0.0/TestFiles.zip || true
+    [ ! -f TestFiles.zip ] && wget https://github.com/zny05/Duplicate-Purge/releases/download/6.0.0/TestFiles.zip || true
     cd ci_tester && cargo build --release && cd ..
     cargo build --release --bin czkawka_cli
 
@@ -138,7 +138,7 @@ change-version version:
 
 ##################### LICENSES #####################
 
-# Generate third-party license file for Cedinia.
+# Generate third-party license file for Cleaner.
 # Requires: cargo install cargo-license
 gen_cedinia_licenses:
     cargo metadata --format-version 1 \
@@ -339,7 +339,7 @@ android_build_aab:
 
 prepare_binaries:
     mkdir -p benchmarks
-    wget https://github.com/qarmin/czkawka/releases/download/Nightly/linux_czkawka_cli -O benchmarks/czkawka_cli_normal
+    wget https://github.com/zny05/Duplicate-Purge/releases/download/Nightly/linux_czkawka_cli -O benchmarks/czkawka_cli_normal
     cd czkawka_cli; cargo build --release; cd ..; cp target/release/czkawka_cli benchmarks/czkawka_cli_v4
     cd czkawka_cli; cargo build --profile fastest; cd ..; cp target/fastest/czkawka_cli benchmarks/czkawka_cli_fastest
 

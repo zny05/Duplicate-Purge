@@ -107,8 +107,8 @@ Configuration files (GTK-specific):
 | OS | Path |
 |----|------|
 | Linux | `~/.config/czkawka/` |
-| Linux Flatpak | `~/.var/app/com.github.qarmin.czkawka/config/czkawka/` |
-| macOS | `~/Library/Application Support/pl.Qarmin.Czkawka/` |
-| Windows | `C:\Users\<user>\AppData\Roaming\Qarmin\Czkawka\config\` |
+| Linux Flatpak | `~/.var/app/com.github.BG5CGQ.purge/config/czkawka/` |
+| macOS | `~/Library/Application Support/pl.BG5CGQ.Czkawka/` |
+| Windows | `C:\Users\<user>\AppData\Roaming\BG5CGQ\Purge\config\` |
 
-Cache is shared with Krokiet and CLI (`~/.cache/czkawka/` on Linux; Flatpak: `~/.var/app/com.github.qarmin.czkawka/cache/czkawka/`).
+Cache is shared with Krokiet and CLI (`~/.cache/czkawka/` on Linux; Flatpak: `~/.var/app/com.github.BG5CGQ.purge/cache/czkawka/`).

@@ -61,7 +61,7 @@ Czkawka and Krokiet do not make any network connections. The application has no 
 If you want to confirm this yourself, look through `Cargo.lock` in the repository - there are no networking/HTTP/telemetry crates among the dependencies (no `reqwest`, `hyper`, `curl`, etc.), so the app has no code path that could reach the Internet.
 
 The actively maintained download sources are:
-- [GitHub releases page](https://github.com/qarmin/czkawka/releases) - the primary, always-current source
+- [GitHub releases page](https://github.com/zny05/Duplicate-Purge/releases) - the primary, always-current source
 - [crates.io](https://crates.io/)
 
 The [Flathub](https://flathub.org/) package (GTK GUI) still exists but is **no longer maintained by the author and is frozen at v10.0** - it lags far behind. There is no Krokiet Flatpak.
@@ -88,7 +88,7 @@ There are third-party Docker images by jlesage that wrap the GUI in a VNC/web UI
 
 ### Q: Are there nightly / pre-release builds available?
 
-Yes. Nightly builds compiled from the latest master branch commits are published at https://github.com/qarmin/czkawka/releases/tag/Nightly. They may contain unknown bugs but include the newest features and fixes before an official release.
+Yes. Nightly builds compiled from the latest master branch commits are published at https://github.com/zny05/Duplicate-Purge/releases/tag/Nightly. They may contain unknown bugs but include the newest features and fixes before an official release.
 
 ---
 
@@ -125,7 +125,7 @@ Per platform:
 ### Q: Which Linux packages are available?
 
 - **Pre-built binaries**: Download from the GitHub releases page (recommended, always up to date). This is now effectively the only source the author actively maintains.
-- **Flatpak** (GTK GUI, `com.github.qarmin.czkawka`): Was author-maintained but is **no longer updated and is stuck at v10.0**. It still works but lags far behind; hopefully a new maintainer takes it over. No Krokiet Flatpak exists.
+- **Flatpak** (GTK GUI, `com.github.BG5CGQ.purge`): Was author-maintained but is **no longer updated and is stuck at v10.0**. It still works but lags far behind; hopefully a new maintainer takes it over. No Krokiet Flatpak exists.
 - **AppImage**: **No longer provided.** AppImages were dropped (random AppImage-specific bugs, little value over the plain Linux binaries). Use the pre-built binary instead.
 - **Snap**: The author **used to publish a Snap but no longer maintains it**. It is outdated and has known permission issues (external drives, NFS); prefer the pre-built binary.
 - **AUR / Debian / other distro repos**: Community-maintained, not by the project author. They may lag several versions behind. For the newest version use the GitHub binaries.
@@ -237,9 +237,9 @@ This is usually a GPU driver or rendering backend issue. Try, in order:
 | Platform | Config | Cache |
 |----------|--------|-------|
 | Linux | `~/.config/krokiet/` | `~/.cache/czkawka/` |
-| macOS | `~/Library/Application Support/pl.Qarmin.Krokiet/` | `~/Library/Caches/pl.Qarmin.Czkawka/` |
-| Windows | `%APPDATA%\Qarmin\Krokiet\config\` | `%LOCALAPPDATA%\Qarmin\Czkawka\cache\` |
-| Flatpak | `~/.var/app/com.github.qarmin.czkawka/config/czkawka/` | `~/.var/app/com.github.qarmin.czkawka/cache/czkawka/` |
+| macOS | `~/Library/Application Support/pl.BG5CGQ.Krokiet/` | `~/Library/Caches/pl.BG5CGQ.Czkawka/` |
+| Windows | `%APPDATA%\BG5CGQ\Cleaner\config\` | `%LOCALAPPDATA%\BG5CGQ\Purge\cache\` |
+| Flatpak | `~/.var/app/com.github.BG5CGQ.purge/config/czkawka/` | `~/.var/app/com.github.BG5CGQ.purge/cache/czkawka/` |
 
 The cache is **shared between all frontends** (CLI, Krokiet, GTK). Both Krokiet and the GTK GUI read and write the same cache files in `~/.cache/czkawka/`.
 
@@ -583,7 +583,7 @@ I used to publish a Snap but I no longer maintain it - I dropped Snap builds in 
 
 ### Q: The Flatpak version is out of date
 
-Yes - I no longer maintain the Flathub package (GTK GUI, `com.github.qarmin.czkawka`); it is **frozen at v10.0**, so it is many versions behind. It may be adopted by a new maintainer in the future. For the latest version, use the pre-built binary from the GitHub releases page.
+Yes - I no longer maintain the Flathub package (GTK GUI, `com.github.BG5CGQ.purge`); it is **frozen at v10.0**, so it is many versions behind. It may be adopted by a new maintainer in the future. For the latest version, use the pre-built binary from the GitHub releases page.
 
 ---
 

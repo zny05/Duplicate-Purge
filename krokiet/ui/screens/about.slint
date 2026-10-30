@@ -180,7 +180,7 @@ export component About inherits VerticalLayout {
     }
 
     img := Image {
-        source: @image-url("../../icons/krokiet_logo_flag_name_vertical.png"); // TODO simplify svg, to be able to use here svg version with text
+                source: @image-url("../../icons/icon.ico"); // TODO simplify svg, to be able to use svg version with text
         image-fit: ImageFit.contain;
     }
 
@@ -194,7 +194,7 @@ export component About inherits VerticalLayout {
         spacing: 10px;
         padding-bottom: 10px;
         Text {
-            text: "2020 - 2026  Rafał Mikrut(qarmin)";
+            text: "2020 - 2026  BG5CGQ";
             horizontal-alignment: center;
             font-size: FontSizes.header;
         }
@@ -231,7 +231,7 @@ export component About inherits VerticalLayout {
                     height: 100%;
                     text <=> Translations.repository_text;
                     clicked => {
-                        Callabler.open_link("https://github.com/qarmin/czkawka");
+                        Callabler.open_link("https://github.com/zny05/Duplicate-Purge");
                     }
                 }
             }
@@ -244,7 +244,7 @@ export component About inherits VerticalLayout {
                     height: 100%;
                     text <=> Translations.instruction_text;
                     clicked => {
-                        Callabler.open_link("https://github.com/qarmin/czkawka/blob/master/instructions/Instruction.md");
+                        Callabler.open_link("https://github.com/zny05/Duplicate-Purge/blob/master/instructions/Instruction.md");
                     }
                 }
             }
@@ -257,7 +257,7 @@ export component About inherits VerticalLayout {
                     height: 100%;
                     text <=> Translations.donation_text;
                     clicked => {
-                        Callabler.open_link("https://github.com/sponsors/qarmin");
+                        Callabler.open_link("https://github.com/sponsors/BG5CGQ");
                     }
                 }
             }
@@ -274,7 +274,7 @@ export component About inherits VerticalLayout {
                     height: 100%;
                     text <=> Translations.translation_text;
                     clicked => {
-                        Callabler.open_link("https://crowdin.com/project/czkawka");
+                        Callabler.open_link("https://crowdin.com/project/purge");
                     }
                 }
             }

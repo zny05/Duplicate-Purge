@@ -23,7 +23,7 @@
             <!-- Tells NativeActivity which .so to load -->
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="cedinia" />
+                android:value="purge" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

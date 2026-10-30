@@ -2,7 +2,7 @@
 
 Czkawka GUI is a graphical user interface for Czkawka Core, built with GTK 4.
 
-![Screenshot from 2023-11-26 12-43-32](https://github.com/qarmin/czkawka/assets/41945903/722ed490-0be1-4dac-bcfc-182a4d0787dc)
+![Screenshot from 2023-11-26 12-43-32](https://github.com/zny05/Duplicate-Purge/assets/41945903/722ed490-0be1-4dac-bcfc-182a4d0787dc)
 
 ## Deprecation Notice - 12.0 is the Last Version
 
@@ -14,7 +14,7 @@ The source code remains in the repository and compatibility with `czkawka_core` 
 
 Requirements depend on your platform.
 
-Prebuilt binaries are available here: https://github.com/qarmin/czkawka/releases/
+Prebuilt binaries are available here: https://github.com/zny05/Duplicate-Purge/releases/
 
 Additional features such as HEIF, libraw, and libavif require extra libraries to be installed, which may increase the number of dependencies.
 
@@ -40,14 +40,14 @@ All required libraries are bundled in the zip (except ffmpeg, which you can inst
 ## Installation
 
 ### Prebuilt binaries (All OS)
-After installing the required dependencies, download the prebuilt binaries for your platform from the [releases page](https://github.com/qarmin/czkawka/releases).
+After installing the required dependencies, download the prebuilt binaries for your platform from the [releases page](https://github.com/zny05/Duplicate-Purge/releases).
 
 ### Linux
 
 #### Flatpak
 ```
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.github.qarmin.czkawka
+flatpak install flathub com.github.BG5CGQ.purge
 ```
 
 #### Debian package (Unofficial) 
@@ -129,8 +129,8 @@ Not all features and components are implemented here. The main limitations are:
 
 - The Windows version does not support HEIF and WebP files with prebuilt binaries (the MSYS2 version supports them).
 - On Windows, text may appear very small on high-resolution displays. You can manually change DPI scaling for this app:
-    - [Recommended fix](https://github.com/qarmin/czkawka/issues/787#issuecomment-1292253437) (modify gtk.css)
-    - [Alternative workaround](https://github.com/qarmin/czkawka/issues/863#issuecomment-1416761308) (modify Windows DPI settings for this app; this works too, but the text may be a bit blurry).
+    - [Recommended fix](https://github.com/zny05/Duplicate-Purge/issues/787#issuecomment-1292253437) (modify gtk.css)
+    - [Alternative workaround](https://github.com/zny05/Duplicate-Purge/issues/863#issuecomment-1416761308) (modify Windows DPI settings for this app; this works too, but the text may be a bit blurry).
 
 ## License
 

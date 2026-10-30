@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This is **Czkawka / Duplicate-Purge**, a fast, cross-platform duplicate-file finder written in Rust (edition 2024, minimum Rust 1.94.1, Cargo workspace resolver v3). It consists of a shared scanning engine (`czkawka_core`) plus several frontends:
+This is **Purge / Duplicate-Purge**, a fast, cross-platform duplicate-file finder written in Rust (edition 2024, minimum Rust 1.94.1, Cargo workspace resolver v3). It consists of a shared scanning engine (`czkawka_core`) plus several frontends:
 
 - `czkawka_core` — shared scanning library, no UI dependency, used by every frontend
 - `czkawka_cli` — command-line frontend (clap + indicatif)

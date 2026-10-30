@@ -4,11 +4,11 @@ use log::error;
 use crate::connect_things::connect_other_apps_dialog::show_other_apps_dialog;
 use crate::gui_structs::gui_data::GuiData;
 
-const SPONSOR_SITE: &str = "https://github.com/sponsors/qarmin";
-const REPOSITORY_SITE: &str = "https://github.com/qarmin/czkawka";
-const INSTRUCTION_SITE: &str = "https://github.com/qarmin/czkawka/blob/master/instructions/Instruction.md";
-const TRANSLATION_SITE: &str = "https://crwd.in/czkawka";
-const KROKIET_SITE: &str = "https://github.com/qarmin/czkawka/tree/master/krokiet";
+const SPONSOR_SITE: &str = "https://github.com/sponsors/BG5CGQ";
+const REPOSITORY_SITE: &str = "https://github.com/zny05/Duplicate-Purge";
+const INSTRUCTION_SITE: &str = "https://github.com/zny05/Duplicate-Purge/blob/master/instructions/Instruction.md";
+const TRANSLATION_SITE: &str = "https://crowdin.com/project/purge";
+const KROKIET_SITE: &str = "https://github.com/zny05/Duplicate-Purge/tree/master/krokiet";
 
 pub(crate) fn connect_about_buttons(gui_data: &GuiData) {
     let button_donation = gui_data.about.button_donation.clone();
