@@ -214,12 +214,8 @@ jobs:
 
           cd package/share
           # gtk4_theme.zip removed - file no longer available at GitHub releases
+          # libGL.zip removed - file no longer available at GitHub releases (libEGL.dll / libGLESv2.dll)
           cd ../..
-
-          wget2 https://github.com/zny05/Duplicate-Purge/releases/download/test/libGL.zip
-          unzip libGL.zip
-          mv libEGL.dll package/
-          mv libGLESv2.dll package/
 
           unzip windows_krokiet_on_windows_all_backends.zip -d package/
 
