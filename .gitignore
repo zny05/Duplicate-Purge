@@ -55,3 +55,5 @@ tmp/
 test/
 temp/
 memory/rebranding-plan.md
+Duplicate-Purge.code-workspace
+dist/
